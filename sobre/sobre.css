@@ -1,0 +1,122 @@
+/* Define um estilo para o corpo da página */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+	margin: 0;
+	padding: 0px;
+}
+
+/* Estilo do header */
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex;
+	padding: 20px;
+}
+
+
+header h1 {
+	margin: 0;
+}
+
+nav {
+	background-color: #666;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	box-sizing: border-box;
+	text-size-adjust: auto;
+	text-align: center;
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	right: 0;
+	left: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Estilo do main */
+main {
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	flex-basis: 300px;
+	margin-right: 40px;
+}
+
+li:last-child {
+	margin-right: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 50%;
+}
+
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+
+/* Estilo do footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 26px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: rgb(0, 255, 55);
+}

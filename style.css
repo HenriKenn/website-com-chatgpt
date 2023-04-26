@@ -1,0 +1,75 @@
+/* Define um estilo para o corpo da página */
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define um estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Define um estilo para o título principal */
+h1 {
+    margin: 0;
+}
+
+/* Define um estilo para a navegação */
+nav {
+    background-color: #666;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+nav a {
+
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Define um estilo para o conteúdo principal */
+main {
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+/* Define um estilo para o rodapé */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: rgb(0, 255, 55);
+}
